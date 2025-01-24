@@ -10,7 +10,7 @@ type BasePageTitleProps = {
 
 const BasePageRoot: FC<BasePageProps> = ({ children }) => {
   return (
-    <div className="flex flex-col gap-6 bg-amber-100 h-fit p-5 rounded-xl">
+    <div className="flex flex-col gap-6 bg-amber-100 h-fit p-5 rounded-xl min-w-[90vw] min-h-[90vh]">
       {children}
     </div>
   );

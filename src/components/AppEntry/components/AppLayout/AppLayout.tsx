@@ -7,7 +7,7 @@ type AppLayoutProps = {
 export const AppLayout: FC<AppLayoutProps> = ({ children }) => {
   return (
     <main className="flex flex-1 bg-blue-100 min-h-[100vh] p-10">
-      <section className="flex flex-1 flex-col bg-primary" id="app-content">
+      <section className="flex flex-1 flex-col justify-center" id="app-content">
         {children}
       </section>
     </main>
