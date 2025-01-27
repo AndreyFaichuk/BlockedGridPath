@@ -1,0 +1,1 @@
+export { ColorMotion } from "./ColorMotion";
